@@ -1,0 +1,6 @@
+{
+  "name": "SKYPEC - Quản Lý Lý Lịch & QR Nhân Viên Hàng Không",
+  "description": "Hệ thống quản lý lý lịch nhân viên điều khiển phương tiện, vận hành thiết bị tại sân bay với mã QR cố định - SKYPEC",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F7F9FA;
+    color: #1E293B;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* SKYPEC Corporate Colors */
+:root {
+  --skypec-blue: #006C99;
+  --skypec-blue-dark: #005377;
+  --skypec-blue-light: #E6F3F8;
+  --skypec-yellow: #EECD2B;
+  --skypec-yellow-dark: #C9A718;
+  --skypec-yellow-light: #FEF9E7;
+}
+
+/* Administrative Document Typography (Nghị định 30/2020/NĐ-CP - Chuẩn Times New Roman) */
+.font-vn-admin {
+  font-family: 'Times New Roman', 'Lora', 'Liberation Serif', 'Nimbus Roman No9 L', Times, Georgia, serif;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-vn-lora {
+  font-family: 'Lora', 'Times New Roman', 'Liberation Serif', serif;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-vn-sans {
+  font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* High-fidelity Print Rules for 1:1 Official Resume PDF */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-resume, #printable-resume * {
+    visibility: visible;
+  }
+  #printable-resume {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: white !important;
+    color: black !important;
+  }
+  @page {
+    size: A4 portrait;
+    margin: 15mm 15mm 15mm 15mm;
+  }
+  .page-break-after {
+    page-break-after: always;
+    break-after: page;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

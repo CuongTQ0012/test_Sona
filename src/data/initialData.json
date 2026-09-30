@@ -1,0 +1,828 @@
+{
+  "employees": [
+    {
+      "id": "emp_001",
+      "employeeCode": "SKP-0125",
+      "publicToken": "A7K9X2M8",
+      "fullName": "Nguyễn Văn A",
+      "birthDate": "15/08/1988",
+      "gender": "Nam",
+      "idCard": {
+        "number": "001088019842",
+        "issueDate": "10/05/2021",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "01/06/2018",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên điều khiển phương tiện",
+      "department": "Chi nhánh ĐBSH / Phòng Kỹ thuật / Đội xe tra nạp Nội Bài",
+      "position": "Nhân viên chính",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Nội Bài (HAN)",
+      "professionalSkills": [
+        {
+          "id": "ps_1",
+          "order": 1,
+          "name": "Điều khiển xe tra nạp nhiên liệu hàng không kiểu bồn (Refueler 35.000L - 60.000L)",
+          "status": "active"
+        },
+        {
+          "id": "ps_2",
+          "order": 2,
+          "name": "Vận hành xe truyền tiếp nhiên liệu (Hydrant Dispenser)",
+          "status": "active"
+        },
+        {
+          "id": "ps_3",
+          "order": 3,
+          "name": "Quy trình kiểm tra an toàn tra nạp nhiên liệu tại sân đỗ tàu bay",
+          "status": "active"
+        },
+        {
+          "id": "ps_4",
+          "order": 4,
+          "name": "Ứng phó sự cố khẩn cấp và chữa cháy khu bay",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_1",
+          "order": 1,
+          "skillName": "Huấn luyện vận hành hệ thống van Pit Hydrant sân đỗ T2 Nội Bài",
+          "airport": "Cảng HKQT Nội Bài (HAN)",
+          "duration": "15/01/2023 - 28/02/2023",
+          "decisionNumber": "QĐ-SKYPEC/ĐBSH số 45/QĐ-KT",
+          "decisionFileName": "QD_45_Cong_Nhan_HL_NoiBai.pdf",
+          "decisionFileUrl": "mock_pdf_qd45"
+        },
+        {
+          "id": "ot_2",
+          "order": 2,
+          "skillName": "Huấn luyện quy tắc di chuyển và đỗ phương tiện khu bay cấp 1",
+          "airport": "Cảng HKQT Nội Bài (HAN)",
+          "duration": "10/08/2023 - 25/08/2023",
+          "decisionNumber": "QĐ-SKYPEC/HAN số 112/QĐ-AT",
+          "decisionFileName": "QD_112_HL_DiChuyen_KhuBay.pdf",
+          "decisionFileUrl": "mock_pdf_qd112"
+        }
+      ],
+      "deployedAirports": [
+        {
+          "id": "da_1",
+          "order": 1,
+          "airport": "Cảng HKQT Đà Nẵng (DAD)",
+          "assignedSkill": "Tăng cường phục vụ cao điểm Hè và Hội nghị Hàng không",
+          "startDate": "01/06/2023",
+          "endDate": "15/07/2023"
+        },
+        {
+          "id": "da_2",
+          "order": 2,
+          "airport": "Cảng HKQT Cam Ranh (CXR)",
+          "assignedSkill": "Hỗ trợ tra nạp tàu bay thân rộng chặng quốc tế",
+          "startDate": "10/01/2024",
+          "endDate": "28/02/2024"
+        }
+      ],
+      "trainingRecords": [],
+      "workHistory": [
+        {
+          "id": "wh_1",
+          "period": "06/2018 - 12/2020",
+          "description": "Nhân viên phụ xe tra nạp nhiên liệu, Đội xe tra nạp, Chi nhánh ĐBSH - SKYPEC, Cảng HKQT Nội Bài"
+        },
+        {
+          "id": "wh_2",
+          "period": "01/2021 - Đến nay",
+          "description": "Nhân viên điều khiển phương tiện tra nạp bồn và xe truyền tiếp, Đội xe tra nạp Nội Bài, Cảng HKQT Nội Bài"
+        }
+      ],
+      "createdAt": "2024-01-10T08:00:00.000Z",
+      "updatedAt": "2026-09-26T10:53:55.636Z"
+    },
+    {
+      "id": "emp_002",
+      "employeeCode": "SKP-0142",
+      "publicToken": "M8Q3K9P1",
+      "fullName": "Trần Thị Mai Lan",
+      "birthDate": "22/04/1992",
+      "gender": "Nữ",
+      "idCard": {
+        "number": "079192008741",
+        "issueDate": "14/11/2021",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "15/09/2019",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên vận hành thiết bị",
+      "department": "Chi nhánh ĐBN / Phòng Kỹ thuật / Đội vận hành trạm nhiên liệu Tân Sơn Nhất",
+      "position": "Kỹ thuật viên vận hành",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Tân Sơn Nhất (SGN)",
+      "professionalSkills": [
+        {
+          "id": "ps_21",
+          "order": 1,
+          "name": "Vận hành hệ thống bơm lọc và điều phối bồn bể JET A-1",
+          "status": "active"
+        },
+        {
+          "id": "ps_22",
+          "order": 2,
+          "name": "Kiểm tra chất lượng nhiên liệu hàng không (Color, Density, Water Detector)",
+          "status": "active"
+        },
+        {
+          "id": "ps_23",
+          "order": 3,
+          "name": "Đo lường hao hụt và ghi nhận số liệu Scada tự động",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_21",
+          "order": 1,
+          "skillName": "Huấn luyện hệ thống SCADA quản lý kho nhiên liệu Tân Sơn Nhất",
+          "airport": "Cảng HKQT Tân Sơn Nhất (SGN)",
+          "duration": "01/03/2024 - 15/04/2024",
+          "decisionNumber": "QĐ-SKYPEC/ĐBN số 78/QĐ-KH",
+          "decisionFileName": "QD_78_SCADA_TSN.pdf",
+          "decisionFileUrl": "mock_pdf_qd78"
+        }
+      ],
+      "deployedAirports": [
+        {
+          "id": "da_21",
+          "order": 1,
+          "airport": "Cảng HKQT Phú Quốc (PQC)",
+          "assignedSkill": "Hỗ trợ kiểm chuẩn hệ thống bồn chứa mùa cao điểm du lịch",
+          "startDate": "20/12/2024",
+          "endDate": "20/01/2025"
+        }
+      ],
+      "trainingRecords": [],
+      "workHistory": [
+        {
+          "id": "wh_21",
+          "period": "09/2019 - 05/2022",
+          "description": "Kỹ thuật viên sơ cấp kiểm tra bồn bể, Chi nhánh ĐBN, Cảng HKQT Tân Sơn Nhất"
+        },
+        {
+          "id": "wh_22",
+          "period": "06/2022 - Đến nay",
+          "description": "Kỹ thuật viên vận hành hệ thống bơm lọc và Scada, Đội trạm nhiên liệu TSN, Cảng HKQT Tân Sơn Nhất"
+        }
+      ],
+      "createdAt": "2024-02-15T09:00:00.000Z",
+      "updatedAt": "2026-09-26T10:54:01.862Z"
+    },
+    {
+      "id": "emp_003",
+      "employeeCode": "SKP-0188",
+      "publicToken": "P5T8W2K4",
+      "fullName": "Lê Hoàng Nam",
+      "birthDate": "12/11/1985",
+      "gender": "Nam",
+      "idCard": {
+        "number": "048085002145",
+        "issueDate": "18/06/2021",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "01/03/2015",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên điều khiển phương tiện",
+      "department": "Chi nhánh ĐBMT / Phòng Kỹ thuật / Đội xe tra nạp Đà Nẵng",
+      "position": "Tổ trưởng tổ xe tra nạp",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Đà Nẵng (DAD)",
+      "professionalSkills": [
+        {
+          "id": "ps_31",
+          "order": 1,
+          "name": "Điều khiển xe tra nạp bồn chuyên dụng hàng không hạng FC-60",
+          "status": "active"
+        },
+        {
+          "id": "ps_32",
+          "order": 2,
+          "name": "Quy trình đấu nối mỏ tra nạp cánh tàu bay Boeing 787 / Airbus A350",
+          "status": "active"
+        },
+        {
+          "id": "ps_33",
+          "order": 3,
+          "name": "Giám sát an toàn nạp liệu tàu bay chuyên cơ ngoại giao",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_31",
+          "order": 1,
+          "skillName": "Huấn luyện kỹ thuật tra nạp áp lực cao tàu bay thân rộng thế hệ mới",
+          "airport": "Cảng HKQT Đà Nẵng (DAD)",
+          "duration": "10/04/2024 - 25/05/2024",
+          "decisionNumber": "QĐ-SKYPEC/ĐBMT số 92/QĐ-KT",
+          "decisionFileName": "QD_92_ApLucCao_DaNang.pdf",
+          "decisionFileUrl": "mock_pdf_qd92"
+        }
+      ],
+      "deployedAirports": [
+        {
+          "id": "da_31",
+          "order": 1,
+          "airport": "Cảng HKQT Chu Lai (VCL)",
+          "assignedSkill": "Hỗ trợ tra nạp chuyến bay kỹ thuật và huấn luyện quân sự",
+          "startDate": "01/08/2024",
+          "endDate": "15/08/2024"
+        }
+      ],
+      "trainingRecords": [
+        {
+          "id": "tr_31",
+          "order": 1,
+          "trainingFacility": "Học viện Hàng không Việt Nam",
+          "trainingContent": "Quy chuẩn an toàn tra nạp nhiên liệu hàng không thương mại",
+          "startDate": "05/01/2024",
+          "endDate": "15/01/2024",
+          "certificateName": "CCCM Nhân viên Hàng không chuyên ngành tra nạp",
+          "certificateNumber": "CAAV-CCCM-2024-0199",
+          "certificateFileName": "CCCM_CAAV_2024.pdf",
+          "certificateFileUrl": "mock_cert_cccm",
+          "trainingFormat": "Chính quy bắt buộc",
+          "issueDate": "20/01/2024",
+          "expiryDate": "20/01/2029"
+        },
+        {
+          "id": "tr_32",
+          "order": 2,
+          "trainingFacility": "Phòng Cảnh sát PCCC & CNCH - TP Đà Nẵng",
+          "trainingContent": "Kỹ năng chữa cháy foam bọt và ứng phó tràn xăng dầu",
+          "startDate": "10/08/2024",
+          "endDate": "12/08/2024",
+          "certificateName": "Chứng chỉ An toàn PCCC cơ sở hàng không",
+          "certificateNumber": "PCCC-DN-2024-8821",
+          "certificateFileName": "PCCC_DaNang_2024.pdf",
+          "certificateFileUrl": "mock_cert_pccc_dn",
+          "trainingFormat": "Định kỳ",
+          "issueDate": "15/08/2024",
+          "expiryDate": "15/08/2026"
+        }
+      ],
+      "workHistory": [
+        {
+          "id": "wh_31",
+          "period": "03/2015 - 08/2019",
+          "description": "Lái xe tra nạp nhiên liệu, Đội xe tra nạp, Chi nhánh ĐBMT - SKYPEC, Cảng HKQT Đà Nẵng"
+        },
+        {
+          "id": "wh_32",
+          "period": "09/2019 - Đến nay",
+          "description": "Tổ trưởng tổ xe tra nạp, Phòng Kỹ thuật, Chi nhánh ĐBMT - SKYPEC, Cảng HKQT Đà Nẵng"
+        }
+      ],
+      "createdAt": "2024-01-05T08:00:00.000Z",
+      "updatedAt": "2026-09-15T11:00:00.000Z"
+    },
+    {
+      "id": "emp_004",
+      "employeeCode": "SKP-0205",
+      "publicToken": "K2N9X7L3",
+      "fullName": "Phạm Quốc Dũng",
+      "birthDate": "05/03/1990",
+      "gender": "Nam",
+      "idCard": {
+        "number": "001090003418",
+        "issueDate": "09/09/2022",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "01/11/2019",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên vận hành thiết bị",
+      "department": "Chi nhánh ĐBSH / Phòng Kỹ thuật / Đội công nghệ kho Nội Bài",
+      "position": "Kỹ thuật viên hệ thống bơm",
+      "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Nội Bài (HAN)",
+      "professionalSkills": [
+        {
+          "id": "ps_41",
+          "order": 1,
+          "name": "Vận hành trạm bơm cao áp Pit Hydrant công suất 1.200 m3/h",
+          "status": "active"
+        },
+        {
+          "id": "ps_42",
+          "order": 2,
+          "name": "Bảo dưỡng van giảm áp, van phân đoạn ống ngầm khu bay",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_41",
+          "order": 1,
+          "skillName": "Quy trình kiểm tra rò rỉ đường ống ngầm nhiên liệu sân bay Nội Bài",
+          "airport": "Cảng HKQT Nội Bài (HAN)",
+          "duration": "05/06/2024 - 20/07/2024",
+          "decisionNumber": "QĐ-SKYPEC/ĐBSH số 118/QĐ-KT",
+          "decisionFileName": "QD_118_KiemTra_DuongOng.pdf",
+          "decisionFileUrl": "mock_pdf_qd118"
+        }
+      ],
+      "deployedAirports": [
+        {
+          "id": "da_41",
+          "order": 1,
+          "airport": "Cảng HKQT Cát Bi (HPH)",
+          "assignedSkill": "Hỗ trợ kiểm định hệ thống van an toàn trạm bơm xăng dầu",
+          "startDate": "10/03/2025",
+          "endDate": "25/03/2025"
+        }
+      ],
+      "trainingRecords": [
+        {
+          "id": "tr_41",
+          "order": 1,
+          "trainingFacility": "Học viện Hàng không Việt Nam",
+          "trainingContent": "An toàn vận hành hệ thống cấp phát nhiên liệu hàng không ngầm",
+          "startDate": "01/04/2025",
+          "endDate": "10/04/2025",
+          "certificateName": "Chứng chỉ Vận hành thiết bị kho cấp phát JIG",
+          "certificateNumber": "CAAV-VH-2025-3012",
+          "certificateFileName": "ChungChi_VH_JIG_2025.pdf",
+          "certificateFileUrl": "mock_cert_jig_vh",
+          "trainingFormat": "Tập trung",
+          "issueDate": "15/04/2025",
+          "expiryDate": "15/10/2026"
+        }
+      ],
+      "workHistory": [
+        {
+          "id": "wh_41",
+          "period": "11/2019 - Đến nay",
+          "description": "Nhân viên vận hành thiết bị trạm bơm cao áp, Kho nhiên liệu Nội Bài, SKYPEC"
+        }
+      ],
+      "createdAt": "2024-03-01T08:00:00.000Z",
+      "updatedAt": "2026-09-12T09:30:00.000Z"
+    },
+    {
+      "id": "emp_005",
+      "employeeCode": "SKP-0231",
+      "publicToken": "W4M6Y8C2",
+      "fullName": "Vũ Đức Thắng",
+      "birthDate": "18/07/1987",
+      "gender": "Nam",
+      "idCard": {
+        "number": "056087004129",
+        "issueDate": "25/02/2022",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "01/08/2016",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên kiểm soát chất lượng nhiên liệu",
+      "department": "Trung tâm Thử nghiệm & Kiểm chuẩn SKYPEC / Phòng KCS",
+      "position": "Trưởng nhóm kiểm chuẩn hiện trường",
+      "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Cam Ranh (CXR)",
+      "professionalSkills": [
+        {
+          "id": "ps_51",
+          "order": 1,
+          "name": "Lấy mẫu và thử nghiệm chỉ tiêu ASTM D1655 / DEF STAN 91-091",
+          "status": "active"
+        },
+        {
+          "id": "ps_52",
+          "order": 2,
+          "name": "Kiểm tra độ sạch micro-filter và filter water separator (FWS)",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_51",
+          "order": 1,
+          "skillName": "Huấn luyện sử dụng máy đo độ dẫn điện và hàm lượng nước tự do hiện trường",
+          "airport": "Cảng HKQT Cam Ranh (CXR)",
+          "duration": "10/01/2025 - 20/02/2025",
+          "decisionNumber": "QĐ-SKYPEC/CXR số 23/QĐ-KCS",
+          "decisionFileName": "QD_23_DoDanDien_CXR.pdf",
+          "decisionFileUrl": "mock_pdf_qd23"
+        }
+      ],
+      "deployedAirports": [
+        {
+          "id": "da_51",
+          "order": 1,
+          "airport": "Cảng hàng không Liên Khương (DLI)",
+          "assignedSkill": "Kiểm định chất lượng nhiên liệu phục vụ bay mùa Festival",
+          "startDate": "01/12/2024",
+          "endDate": "15/12/2024"
+        }
+      ],
+      "trainingRecords": [
+        {
+          "id": "tr_51",
+          "order": 1,
+          "trainingFacility": "Viện Dầu khí Việt Nam (VPI)",
+          "trainingContent": "Phương pháp phân tích hóa nghiệm nhiên liệu phản lực JET A-1",
+          "startDate": "05/03/2024",
+          "endDate": "20/03/2024",
+          "certificateName": "Chứng nhận Kỹ thuật viên Kiểm nghiệm ASTM D1655",
+          "certificateNumber": "VPI-QC-2024-811",
+          "certificateFileName": "ChungChi_VPI_2024.pdf",
+          "certificateFileUrl": "mock_cert_vpi",
+          "trainingFormat": "Chuyên sâu",
+          "issueDate": "25/03/2024",
+          "expiryDate": "25/03/2027"
+        }
+      ],
+      "workHistory": [
+        {
+          "id": "wh_51",
+          "period": "08/2016 - Đến nay",
+          "description": "Kiểm soát chất lượng nhiên liệu, Chi nhánh SKYPEC miền Trung & Cảng HKQT Cam Ranh"
+        }
+      ],
+      "createdAt": "2024-01-20T08:00:00.000Z",
+      "updatedAt": "2026-09-01T15:00:00.000Z"
+    },
+    {
+      "id": "emp_006",
+      "employeeCode": "SKP-0274",
+      "publicToken": "H7B3Q5V9",
+      "fullName": "Đỗ Hải Đăng",
+      "birthDate": "30/09/1993",
+      "gender": "Nam",
+      "idCard": {
+        "number": "091093005821",
+        "issueDate": "12/04/2021",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "01/04/2020",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên điều khiển phương tiện",
+      "department": "Chi nhánh ĐBN / Trạm tra nạp Phú Quốc",
+      "position": "Nhân viên",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Phú Quốc (PQC)",
+      "professionalSkills": [
+        {
+          "id": "ps_61",
+          "order": 1,
+          "name": "Điều khiển xe tra nạp bồn chuyên dụng tại sân bay đảo",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_61",
+          "order": 1,
+          "skillName": "Huấn luyện an toàn nạp liệu tàu bay thân hẹp A321/B737 tại sân đỗ PQC",
+          "airport": "Cảng HKQT Phú Quốc (PQC)",
+          "duration": "01/05/2024 - 15/06/2024",
+          "decisionNumber": "QĐ-SKYPEC/PQC số 34/QĐ-AT",
+          "decisionFileName": "QD_34_AnToan_PQC.pdf",
+          "decisionFileUrl": "mock_pdf_qd34"
+        }
+      ],
+      "deployedAirports": [],
+      "trainingRecords": [
+        {
+          "id": "tr_61",
+          "order": 1,
+          "trainingFacility": "Học viện Hàng không Việt Nam",
+          "trainingContent": "An toàn khu bay và kiểm soát rủi ro tai nạn sân đỗ",
+          "startDate": "10/01/2025",
+          "endDate": "15/01/2025",
+          "certificateName": "Chứng chỉ An toàn khu bay",
+          "certificateNumber": "CAAV-AT-2025-994",
+          "certificateFileName": "ChungChi_ATKB_PQC.pdf",
+          "certificateFileUrl": "mock_cert_pqc",
+          "trainingFormat": "Định kỳ",
+          "issueDate": "20/01/2025",
+          "expiryDate": "20/01/2028"
+        }
+      ],
+      "workHistory": [
+        {
+          "id": "wh_61",
+          "period": "04/2020 - Đến nay",
+          "description": "Lái xe tra nạp bồn SKYPEC tại Cảng HKQT Phú Quốc"
+        }
+      ],
+      "createdAt": "2024-04-10T08:00:00.000Z",
+      "updatedAt": "2026-08-20T10:00:00.000Z"
+    },
+    {
+      "id": "emp_007",
+      "employeeCode": "SKP-0312",
+      "publicToken": "T9X4M2Z8",
+      "fullName": "Hoàng Minh Trí",
+      "birthDate": "04/06/1989",
+      "gender": "Nam",
+      "idCard": {
+        "number": "046089001923",
+        "issueDate": "15/10/2021",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "01/10/2017",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên vận hành thiết bị",
+      "department": "Chi nhánh ĐBMT / Trạm nhiên liệu Phú Bài (Huế)",
+      "position": "Phụ trách kỹ thuật trạm",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Phú Bài (HUI)",
+      "professionalSkills": [
+        {
+          "id": "ps_71",
+          "order": 1,
+          "name": "Vận hành và bảo dưỡng trạm cấp nhiên liệu mặt đất",
+          "status": "active"
+        },
+        {
+          "id": "ps_72",
+          "order": 2,
+          "name": "Kiểm soát xả nước đáy bồn và kiểm tra hạt tạp chất",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_71",
+          "order": 1,
+          "skillName": "Huấn luyện vận hành hệ thống cấp nhiên liệu nhà ga mới T2 Phú Bài",
+          "airport": "Cảng HKQT Phú Bài (HUI)",
+          "duration": "01/04/2024 - 15/05/2024",
+          "decisionNumber": "QĐ-SKYPEC/HUI số 19/QĐ-KT",
+          "decisionFileName": "QD_19_NhaGaT2_Hue.pdf",
+          "decisionFileUrl": "mock_pdf_qd19"
+        }
+      ],
+      "deployedAirports": [
+        {
+          "id": "da_71",
+          "order": 1,
+          "airport": "Cảng hàng không Đồng Hới (VDH)",
+          "assignedSkill": "Hỗ trợ kiểm chuẩn bồn và quy trình tra nạp an toàn",
+          "startDate": "10/06/2025",
+          "endDate": "25/06/2025"
+        }
+      ],
+      "trainingRecords": [
+        {
+          "id": "tr_71",
+          "order": 1,
+          "trainingFacility": "Trung tâm Huấn luyện SKYPEC",
+          "trainingContent": "Quy chuẩn JIG Bulletin về kiểm tra thiết bị lọc vi mô",
+          "startDate": "10/08/2025",
+          "endDate": "15/08/2025",
+          "certificateName": "Chứng nhận Kỹ thuật thiết bị lọc JIG",
+          "certificateNumber": "SKP-JIG-2025-055",
+          "certificateFileName": "JIG_LocViMo_2025.pdf",
+          "certificateFileUrl": "mock_cert_jig_loc",
+          "trainingFormat": "Định kỳ",
+          "issueDate": "20/08/2025",
+          "expiryDate": "20/11/2026"
+        }
+      ],
+      "workHistory": [
+        {
+          "id": "wh_71",
+          "period": "10/2017 - Đến nay",
+          "description": "Vận hành thiết bị trạm nhiên liệu hàng không Phú Bài - SKYPEC"
+        }
+      ],
+      "createdAt": "2024-02-01T08:00:00.000Z",
+      "updatedAt": "2026-09-05T09:00:00.000Z"
+    },
+    {
+      "id": "emp_008",
+      "employeeCode": "SKP-0349",
+      "publicToken": "L3K8N5P7",
+      "fullName": "Bùi Văn Hùng",
+      "birthDate": "20/02/1986",
+      "gender": "Nam",
+      "idCard": {
+        "number": "031086004721",
+        "issueDate": "08/08/2021",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "01/05/2017",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên điều khiển phương tiện",
+      "department": "Chi nhánh ĐBSH / Đội xe tra nạp Cát Bi",
+      "position": "Nhân viên lái xe chính",
+      "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Cát Bi (HPH)",
+      "professionalSkills": [
+        {
+          "id": "ps_81",
+          "order": 1,
+          "name": "Điều khiển phương tiện chuyên dụng chở và nạp nhiên liệu hàng không",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_81",
+          "order": 1,
+          "skillName": "Huấn luyện điều khiển xe tra nạp bồn 45.000L tại sân bay Cát Bi",
+          "airport": "Cảng HKQT Cát Bi (HPH)",
+          "duration": "01/07/2023 - 15/08/2023",
+          "decisionNumber": "QĐ-SKYPEC/HPH số 62/QĐ-KT",
+          "decisionFileName": "QD_62_CatBi_TraNap.pdf",
+          "decisionFileUrl": "mock_pdf_qd62"
+        }
+      ],
+      "deployedAirports": [
+        {
+          "id": "da_81",
+          "order": 1,
+          "airport": "Cảng HKQT Vân Đồn (VDO)",
+          "assignedSkill": "Tăng cường phục vụ các chuyến bay đặc biệt",
+          "startDate": "10/11/2024",
+          "endDate": "25/11/2024"
+        }
+      ],
+      "trainingRecords": [
+        {
+          "id": "tr_81",
+          "order": 1,
+          "trainingFacility": "Học viện Hàng không Việt Nam",
+          "trainingContent": "An toàn khu bay và kiểm soát tai nạn phương tiện đặc chủng",
+          "startDate": "01/02/2024",
+          "endDate": "07/02/2024",
+          "certificateName": "Thẻ kiểm soát an toàn khu bay",
+          "certificateNumber": "CAAV-KB-2024-3321",
+          "certificateFileName": "The_KB_CatBi.pdf",
+          "certificateFileUrl": "mock_cert_catbi",
+          "trainingFormat": "Bắt buộc",
+          "issueDate": "10/02/2024",
+          "expiryDate": "10/02/2027"
+        }
+      ],
+      "workHistory": [
+        {
+          "id": "wh_81",
+          "period": "05/2017 - Đến nay",
+          "description": "Lái xe tra nạp nhiên liệu hàng không, SKYPEC Cát Bi, Hải Phòng"
+        }
+      ],
+      "createdAt": "2024-03-10T08:00:00.000Z",
+      "updatedAt": "2026-08-15T11:00:00.000Z"
+    },
+    {
+      "id": "emp_009",
+      "employeeCode": "SKP-0382",
+      "publicToken": "Y6V2C9M4",
+      "fullName": "Nguyễn Đức Cường",
+      "birthDate": "14/12/1991",
+      "gender": "Nam",
+      "idCard": {
+        "number": "001091007812",
+        "issueDate": "19/07/2022",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "01/02/2021",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Kỹ thuật viên bảo dưỡng phương tiện và thiết bị tra nạp",
+      "department": "Ban Kỹ thuật & Phương tiện SKYPEC / Xưởng bảo dưỡng Nội Bài",
+      "position": "Kỹ sư bảo dưỡng",
+      "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "active",
+      "regularAirport": "Cảng hàng không quốc tế Nội Bài (HAN)",
+      "professionalSkills": [
+        {
+          "id": "ps_91",
+          "order": 1,
+          "name": "Bảo dưỡng cơ khí, thủy lực và hệ thống ngắt tự động Deadman xe tra nạp",
+          "status": "active"
+        },
+        {
+          "id": "ps_92",
+          "order": 2,
+          "name": "Kiểm chuẩn lưu lượng kế (Flowmeter) và đồng hồ áp kế",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [
+        {
+          "id": "ot_91",
+          "order": 1,
+          "skillName": "Huấn luyện hiệu chuẩn van kiểm soát áp suất Carter trên xe tra nạp",
+          "airport": "Cảng HKQT Nội Bài (HAN)",
+          "duration": "10/09/2024 - 25/10/2024",
+          "decisionNumber": "QĐ-SKYPEC số 204/QĐ-KT",
+          "decisionFileName": "QD_204_VanCarter_NoiBai.pdf",
+          "decisionFileUrl": "mock_pdf_qd204"
+        }
+      ],
+      "deployedAirports": [],
+      "trainingRecords": [
+        {
+          "id": "tr_91",
+          "order": 1,
+          "trainingFacility": "Hãng thiết bị tra nạp hàng không quốc tế Carter/Eaton",
+          "trainingContent": "Bảo dưỡng chuyên sâu van ngắt an toàn và mỏ tra nạp hàng không",
+          "startDate": "10/03/2024",
+          "endDate": "18/03/2024",
+          "certificateName": "Chứng chỉ Carter Aviation Ground Fueling Specialist",
+          "certificateNumber": "EATON-2024-7741",
+          "certificateFileName": "Carter_Spec_2024.pdf",
+          "certificateFileUrl": "mock_cert_carter",
+          "trainingFormat": "Chứng nhận chuyên gia",
+          "issueDate": "25/03/2024",
+          "expiryDate": "25/03/2027"
+        }
+      ],
+      "workHistory": [
+        {
+          "id": "wh_91",
+          "period": "02/2021 - Đến nay",
+          "description": "Kỹ sư kỹ thuật bảo dưỡng phương tiện và thiết bị tra nạp SKYPEC"
+        }
+      ],
+      "createdAt": "2024-04-01T08:00:00.000Z",
+      "updatedAt": "2026-09-10T16:00:00.000Z"
+    },
+    {
+      "id": "emp_010",
+      "employeeCode": "SKP-0415",
+      "publicToken": "Z1M7K4W9",
+      "fullName": "Đặng Tuấn Anh",
+      "birthDate": "11/05/1984",
+      "gender": "Nam",
+      "idCard": {
+        "number": "079084001594",
+        "issueDate": "04/01/2021",
+        "issuePlace": "Cục Cảnh sát QLHC về TTXH"
+      },
+      "hireDate": "15/07/2012",
+      "organization": "Công ty TNHH MTV Nhiên liệu Hàng không Việt Nam (SKYPEC)",
+      "aviationJobTitle": "Nhân viên điều độ & an toàn tra nạp nhiên liệu",
+      "department": "Chi nhánh ĐBN / Trung tâm Điều hành Khai thác TSN",
+      "position": "Trưởng ca điều hành",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop&crop=faces&q=80",
+      "status": "locked",
+      "regularAirport": "Cảng hàng không quốc tế Tân Sơn Nhất (SGN)",
+      "professionalSkills": [
+        {
+          "id": "ps_101",
+          "order": 1,
+          "name": "Điều phối vị trí xe tra nạp và kế hoạch chuyến bay khu bay",
+          "status": "active"
+        }
+      ],
+      "onsiteTrainings": [],
+      "deployedAirports": [],
+      "trainingRecords": [
+        {
+          "id": "tr_101",
+          "order": 1,
+          "trainingFacility": "Học viện Hàng không Việt Nam",
+          "trainingContent": "Chứng chỉ Quản lý An toàn Khai thác Khu bay SMS",
+          "startDate": "01/06/2023",
+          "endDate": "10/06/2023",
+          "certificateName": "Chứng chỉ Hệ thống quản lý an toàn SMS",
+          "certificateNumber": "SMS-CAAV-2023-112",
+          "certificateFileName": "SMS_Cert_2023.pdf",
+          "certificateFileUrl": "mock_cert_sms",
+          "trainingFormat": "Nâng cao",
+          "issueDate": "15/06/2023",
+          "expiryDate": "15/06/2026"
+        }
+      ],
+      "workHistory": [
+        {
+          "id": "wh_101",
+          "period": "07/2012 - 08/2026",
+          "description": "Trưởng ca điều hành tra nạp nhiên liệu hàng không, SKYPEC Tân Sơn Nhất"
+        }
+      ],
+      "createdAt": "2024-01-01T08:00:00.000Z",
+      "updatedAt": "2026-08-30T10:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "warningDays": 60,
+    "maskIdCardPublic": false,
+    "companyName": "CÔNG TY TNHH MTV NHIÊN LIỆU HÀNG KHÔNG VIỆT NAM (SKYPEC)",
+    "companySubName": "TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP (VIETNAM AIRLINES)",
+    "enablePublicPdfDownload": true,
+    "qrDomain": "https://hoso.skypec.vn"
+  },
+  "qrLogs": [],
+  "auditLogs": []
+}
